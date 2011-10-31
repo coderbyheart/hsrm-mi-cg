@@ -1,0 +1,18 @@
+Im Rahmen der Lehrveranstaltung Generative Computergrafik ist
+eine sehr vereinfachte Variante von Google Body zu implementieren. 
+
+Ihr OpenGL-Programm, das spätestens am 11.08.2011, 23.59 Uhr elektronisch
+abzugeben ist, soll neben der eigentlichen Darstellung eines 
+* beleuchteten und 
+* texturierten 3D Modells mindestens die folgenden Anforderungen erfüllen:
+* Verschieben
+* Skalieren und 
+* mittels Trackball-Metapher Rotieren des Modells mit der Maus.
+* Es soll möglich sein, einen Punkte auf dem Modell durch Mausklick
+  auszuwählen (Picking). 
+* Nach dem Picking soll ein ”weicher” Schwenk (z.B. mittels SLERP) 
+  der Kamera zu einer Position erfolgen von der aus diese senkrecht 
+  auf den ausgewählten Punkt schaut.
+* Es soll eine Beschreibung des gepickten Bereichs ein- und ausgeblendet 
+  werden können. 
+* Hierbei müssen mindestens 20 verschiedene Bereiche existieren.
