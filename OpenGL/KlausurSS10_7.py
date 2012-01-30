@@ -17,10 +17,9 @@ def display():
 	
 	glBegin(GL_TRIANGLE_STRIP)
 	glVertex(2,-8,0)
-	glVertex(5,-6,0)
 	glVertex(2,-11,0)
-	glVertex(5,-9,0)
 	glVertex(5,-6,0)
+	glVertex(5,-9,0)
 	glVertex(9,-6,0)
 	glVertex(5,-9,0)
 	glVertex(9,-12,0)
